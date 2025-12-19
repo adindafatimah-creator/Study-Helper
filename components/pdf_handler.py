@@ -54,4 +54,5 @@ def handle_pdf_upload():
                 st.rerun()
         
         return pdf_text, user_extra, False
+        
     return None, None, False
