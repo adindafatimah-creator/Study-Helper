@@ -16,7 +16,7 @@ def summarize_text(text: str, previous_context: str = "", user_focus: str = "", 
     instruction = extra_instruction.strip() if extra_instruction else user_focus.strip()
 
     prompt = f"""
-You are Study Buddy, an academic summary AI.
+You are Study Helper, an academic summary AI.
 
 - If text is VERY short (<50 words), say: "This text is too short to summarize. Please provide longer content."
 - Otherwise, create a compact, exam-ready summary in clear, bullet-point sections:
