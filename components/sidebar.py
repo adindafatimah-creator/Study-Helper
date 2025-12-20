@@ -49,6 +49,6 @@ def sidebar_ui():
         """
     )
     st.sidebar.markdown("---")
-    st.sidebar.caption("✨ StudyBuddy - AI Powered Study Assistant")
+    st.sidebar.caption("✨ StudyHelper - AI Powered Study Assistant")
   
     return mode, sub_mode
