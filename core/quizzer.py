@@ -5,7 +5,7 @@ def generate_questions(text: str, previous_context: str = "") -> str:
     Generate a quiz. Show hints if helpful. Answers listed at end as an answer key.
     """
     prompt = f"""
-You are Study Buddy, an academic quiz generator.
+You are Study Helper, an academic quiz generator.
 
 Context:
 {previous_context}
@@ -28,7 +28,7 @@ def solve_questions(user_questions: str, previous_context: str = "", word_limit:
     Solve exam-style questions, using smart default word range with visual cues when needed.
     """
     prompt = f"""
-You are Study Buddy, a question-solving AI.
+You are Study Helper, a question-solving AI.
 
 Questions:
 {user_questions}
@@ -51,7 +51,7 @@ def evaluate_answers(questions: str, user_answers: str, previous_context: str = 
     Evaluate user's answers; feedback, scores, and tips.
     """
     prompt = f"""
-You are Study Buddy, an answer evaluator.
+You are Study Helper, an answer evaluator.
 
 Questions:
 {questions}
