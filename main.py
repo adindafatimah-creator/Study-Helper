@@ -3,7 +3,7 @@ from components.sidebar import sidebar_ui
 from components.chat_ui import chat_ui
 from components.pdf_handler import handle_pdf_upload
 
-st.set_page_config(page_title="StudyBuddy", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="StudyHelper", page_icon="🧠", layout="wide")
 
 # Initialize session state
 if "pdf_content" not in st.session_state:
@@ -15,7 +15,7 @@ if "user_focus" not in st.session_state:
 selected_mode, selected_sub_mode = sidebar_ui()
 
 # Header
-st.title("🧠 StudyBuddy - Your Smart Study Assistant")
+st.title("🧠 StudyHelper - Your Smart Study Assistant")
 
 # PDF Handler (optional upload)
 st.markdown("### 📚 Upload a PDF (Optional)")
