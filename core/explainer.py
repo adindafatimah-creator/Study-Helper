@@ -5,7 +5,7 @@ def explain_concept(concept: str, previous_context: str = "") -> str:
     Explain a concept in simple terms, considering previous context for follow-up questions.
     """
     prompt = f"""
-You are Study Buddy, an AI-powered academic explainer.
+You are Study Helper, an AI-powered academic explainer.
 [Recent chat for context:]
 {previous_context}
 
