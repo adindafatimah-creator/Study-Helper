@@ -17,9 +17,9 @@ def chat_ui(selected_mode, selected_sub_mode=None):
     
     # Build subheader dynamically
     if selected_sub_mode:
-        st.subheader(f"💬 StudyBuddy Chat — {selected_mode} | {selected_sub_mode}")
+        st.subheader(f"💬 StudyHelper Chat — {selected_mode} | {selected_sub_mode}")
     else:
-        st.subheader(f"💬 StudyBuddy Chat — {selected_mode}")
+        st.subheader(f"💬 StudyHelper Chat — {selected_mode}")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
@@ -39,7 +39,7 @@ def chat_ui(selected_mode, selected_sub_mode=None):
         with st.chat_message("assistant"):
             response_placeholder = st.empty()
             try:
-                with st.spinner("💡 Study Buddy is thinking…"):
+                with st.spinner("💡 Study Helper is thinking…"):
                     start_time = time.time()
                     if selected_mode == "💡 Explainer":
                         assistant_response = explain_concept(prompt, previous_context)
