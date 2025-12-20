@@ -12,7 +12,7 @@
 ## 🧠 **Project Overview**
 
 Students often struggle to grasp difficult topics or summarize lengthy notes.  
-**Study Buddy** is an AI-powered web app that acts as a **personal academic assistant**, capable of:
+**Study Helper** is an AI-powered web app that acts as a **personal academic assistant**, capable of:
 
 - 🧩 Explaining complex concepts in simple terms  
 - 📄 Summarizing notes or uploaded PDFs  
@@ -60,7 +60,7 @@ Other Features:
 ## 🧱 **Project Structure**
 
 ```
-StudyBuddy/
+StudyHelper/
 ├── main.py
 ├── requirements.txt
 ├── assets/
@@ -82,7 +82,7 @@ StudyBuddy/
 ---
 
 ## 🪜 **Workflow**
-![StudyBuddy Workflow](https://github.com/user-attachments/assets/ae8f9a61-c84b-4ebf-9081-f139b98cf441)
+![StudyHelper Workflow](https://github.com/user-attachments/assets/ae8f9a61-c84b-4ebf-9081-f139b98cf441)
 ©️🖼️ Diagram Credits: [https://gitdiagram.com/](https://gitdiagram.com/)
 
 ---
